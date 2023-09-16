@@ -2,6 +2,8 @@ module github.com/containers/skopeo
 
 go 1.18
 
+replace github.com/containers/image/v5 => github.com/alauda/containers-image/v5 v5.26.2-alauda.1
+
 require (
 	github.com/containers/common v0.55.4
 	github.com/containers/image/v5 v5.26.2

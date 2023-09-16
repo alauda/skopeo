@@ -71,7 +71,7 @@ github.com/containers/common/pkg/flag
 github.com/containers/common/pkg/report
 github.com/containers/common/pkg/report/camelcase
 github.com/containers/common/pkg/retry
-# github.com/containers/image/v5 v5.26.2
+# github.com/containers/image/v5 v5.26.2 => github.com/alauda/containers-image/v5 v5.26.2-alauda.1
 ## explicit; go 1.18
 github.com/containers/image/v5/copy
 github.com/containers/image/v5/directory
@@ -126,6 +126,7 @@ github.com/containers/image/v5/pkg/docker/config
 github.com/containers/image/v5/pkg/strslice
 github.com/containers/image/v5/pkg/sysregistriesv2
 github.com/containers/image/v5/pkg/tlsclientconfig
+github.com/containers/image/v5/registry
 github.com/containers/image/v5/sif
 github.com/containers/image/v5/signature
 github.com/containers/image/v5/signature/internal
@@ -785,3 +786,4 @@ gopkg.in/yaml.v2
 # gopkg.in/yaml.v3 v3.0.1
 ## explicit
 gopkg.in/yaml.v3
+# github.com/containers/image/v5 => github.com/alauda/containers-image/v5 v5.26.2-alauda.1
